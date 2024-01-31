@@ -1,0 +1,16 @@
+drop database if exists emp_db;
+create database if not exists emp_db;
+use emp_db;
+
+
+create table if not exists emp
+(
+employee_id int primary key,
+first_name varchar(30),
+lasr_name varchar(30),
+salary decimal (10,2),
+joining_date date,
+department varchar(30)
+);
+
+desc emp;

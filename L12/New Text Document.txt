@@ -1,0 +1,17 @@
+-- this is pract 1
+drop database if exists kc_26dec22;
+create database if not exists kc_26dec22;
+use kc_26dec22;
+
+create table if not exists student
+(
+rno int unsigned primary key auto_increment,
+name varchar(20) not null,
+gender enum ("m","f"),
+location varchar(20) default "mumbai",
+marks tinyint unsigned,
+eyear enum ("fe","se","te","be") not null,
+acard varchar(15) not null
+);
+
+desc student;
