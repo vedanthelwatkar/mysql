@@ -1,0 +1,15 @@
+from tkinter import *
+from messagebox import *
+from sqlite3 import *
+
+root=Tk()
+root.title("What Next App")
+root.geometry("1000x500+50+50")
+f= ("Arial",50,"bold")
+
+lab_name = Label(root,text="Enter name",font=f)
+ent_name = Entry(root,font=f)
+lab_name.place(x=50,y=100)
+ent_name.place(x=100,y=100)
+
+root.mainloop()

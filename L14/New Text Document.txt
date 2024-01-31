@@ -1,0 +1,10 @@
+from math import pi
+from math import e
+from math import pow
+from math import floor
+from math import ceil
+print(pi)
+print(e)
+print(pow)
+print(floor)
+print(ceil)

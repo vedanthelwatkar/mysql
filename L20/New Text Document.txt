@@ -1,0 +1,11 @@
+#wapp to create live USD to INR converter
+#https://api.exchangerate-api.com/v4/latest/USD
+
+import requests
+try:
+	wa = "https://api.exchangerate-api.com/v4/latest/USD"
+	res = request.get(wa)
+	data = data [res]
+	print(data)
+except Exception as e:
+	prinnt("issue ",e)

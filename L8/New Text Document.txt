@@ -1,0 +1,13 @@
+'''wapp to find
+1) names of students
+2)names of common students
+3)students in java but not in js
+4)students in js but not in java
+'''
+java=("prachi","nidhi","khushi","preeti","sneha")
+js=("prachi","khushi")
+
+r1=java|js
+r2=java&js
+r3=java-js
+r4=js-java
